@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:background="#000000"
+        tools:context=".FichaPelicula">
+
+        <ImageView
+            android:id="@+id/imagenpeli"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="40"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:text="TextView"
+            android:textColor="#F8F7F7"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:weightSum="100"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/fechaEstreno"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="43"
+                android:text="TextView"
+                android:textColor="#F8F7F7"
+                android:textSize="18sp" />
+
+            <RatingBar
+                android:id="@+id/calificacion"
+                style="@android:style/Widget.DeviceDefault.RatingBar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="57"
+                android:isIndicator="true"
+                android:max="5"
+                android:numStars="5"
+                android:progressBackgroundTint="#555353"
+                android:rating="0"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:stepSize="1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sinopsis"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="25"
+            android:text="TextView"
+            android:textColor="#F8F7F7"
+            android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/verTrailer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:adjustViewBounds="false"
+        android:background="#00A80404"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:textAlignment="center"
+        app:srcCompat="@drawable/iconocine2" />
+
+</LinearLayout>

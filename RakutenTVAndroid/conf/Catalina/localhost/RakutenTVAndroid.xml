@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="C:\2DAM\PROGRAMACION\MVP_PASO_A_PASO\RakutenTVAndroid\web">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="C:/Users/PC RACING/Downloads/apache-tomcat-9.0.96/production/RakutenTVAndroid" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PostResources base="C:/2DAM/PROGRAMACION/MVP_PASO_A_PASO/RakutenTVAndroid/lib/javax.annotation.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/javax.annotation.jar"/>
+    <PostResources base="C:/2DAM/PROGRAMACION/MVP_PASO_A_PASO/RakutenTVAndroid/lib/javax.servlet.jsp.jstl.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/javax.servlet.jsp.jstl.jar"/>
+    <PostResources base="C:/2DAM/PROGRAMACION/MVP_PASO_A_PASO/RakutenTVAndroid/lib/javax.transaction.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/javax.transaction.jar"/>
+    <PostResources base="C:/2DAM/PROGRAMACION/MVP_PASO_A_PASO/RakutenTVAndroid/lib/javax.resource.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/javax.resource.jar"/>
+    <PostResources base="C:/2DAM/PROGRAMACION/MVP_PASO_A_PASO/RakutenTVAndroid/lib/javax.jms.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/javax.jms.jar"/>
+    <PostResources base="C:/2DAM/PROGRAMACION/MVP_PASO_A_PASO/RakutenTVAndroid/lib/javax.servlet.jsp.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/javax.servlet.jsp.jar"/>
+    <PostResources base="C:/2DAM/PROGRAMACION/MVP_PASO_A_PASO/RakutenTVAndroid/lib/javax.persistence.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/javax.persistence.jar"/>
+    <PostResources base="C:/2DAM/PROGRAMACION/MVP_PASO_A_PASO/RakutenTVAndroid/lib/javax.ejb.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/javax.ejb.jar"/>
+    <PostResources base="C:/2DAM/PROGRAMACION/MVP_PASO_A_PASO/RakutenTVAndroid/lib/javax.servlet.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/javax.servlet.jar"/>
+    <PostResources base="C:/2DAM/PROGRAMACION/MVP_PASO_A_PASO/RakutenTVAndroid/librerias/gson-2.6.2.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/gson-2.6.2.jar"/>
+  </Resources>
+</Context>

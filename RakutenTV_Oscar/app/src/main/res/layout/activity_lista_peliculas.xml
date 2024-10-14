@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="#000000"
+    tools:context=".ListaPeliculas">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+
+        <Button
+            android:id="@+id/btnlista"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:text="Lista" />
+
+        <Button
+            android:id="@+id/btnGrid"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:text="Grid" />
+
+        <Button
+            android:id="@+id/btnUser"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:text="Usuario" />
+    </LinearLayout>
+
+
+<androidx.recyclerview.widget.RecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reciclador"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="90"
+    android:padding="3dp"
+    android:scrollbars="vertical"
+    android:background="#000000"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VistaUsuario"
+    android:weightSum="100"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:scaleType="fitXY"
+
+        app:srcCompat="@drawable/logo_rakuten" />
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="7.5"
+        android:text="Nombre"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.5"
+        android:ems="10"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="7.5"
+        android:text="Apellido"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/apellido"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"/>
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="7.5"
+        android:text="Email"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="7.5"
+        android:text="Fecha de Registro"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/fechaRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.5"
+        android:ems="10"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"/>
+</LinearLayout>
